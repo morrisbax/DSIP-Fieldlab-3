@@ -1,15 +1,3 @@
-#Requirements for running code for Fieldlab 3
-
-#necessary packages:
 numpy==1.12.5
 tensorflow==2.11.0
 keras==2.11.0
-
-
-#required structuring of folders containing data for training:
-#	<any folder name>
-#		<(list of) patient folder(s)>
-#			1
-#				<list of .png files containing 50x50 pixel images with positive label>
-#			0
-#				<list of .png files containing 50x50 pixel images with negative label>
